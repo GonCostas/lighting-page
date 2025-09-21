@@ -1,0 +1,19 @@
+👉 Objetivo: Construir una landing page responsiva con HTML, CSS y JS.  
+
+📋 Requisitos:  
+- Header con logo y navegación.  
+- Sección principal con título, subtítulo y un botón.  
+- Sección de 3 tarjetas con imagen, título y texto.  
+- Footer con info de contacto.  
+- Responsivo (desktop + móvil).  
+- Añade una pequeña interacción en JS (ej: abrir un modal).  
+
+📂 Entrega:  
+1. Subir el proyecto a GitHub.  
+2. Escribir un README con instrucciones para visualizarlo.  
+3. Publicar el enlace en `#reto-entregas-frontend` antes del 22/09/25 - 23:59:59 horario 🇪🇸.  
+
+⚡ Se valorará:  
+- Claridad del código.  
+- Presentación visual.  
+- Documentación.

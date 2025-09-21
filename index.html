@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lighting</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <header class="header" id="Home">
+      <div class="logo-contenido">
+        <img class="logo" src="./images/logo.svg" alt="logo" />
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav class="navbar" id="navbar">
+        <ul>
+          <li><a href="#Home">Inicio</a></li>
+          <li><a href="#Card">Contenido</a></li>
+          <li><a href="#Contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="Card">
+      <h1>Bienvenido a Lighthing</h1>
+      <p>Diseños modernos y funcionales para tu hogar</p>
+      <button id="btn-abrir-modal">Saber más</button>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <img
+          src="./images/lampara colgante vintage.jpg"
+          alt="lampara colgante vintage"
+        />
+        <h2>Lámpara Colgante Vintage</h2>
+        <p>
+          Esta lámpara de techo combina un estilo moderno con un toque
+          industrial. Su pantalla negra en forma de campana, con un interior de
+          color cobre o dorado, crea un contraste elegante y cálido. Es ideal
+          para iluminar con estilo una barra de cocina, un comedor o un rincón
+          de lectura.
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="./images/LAMPARACOLGANTE.jpg"
+          alt="lamprascolgantesIndustriales"
+        />
+        <h2>Lámpara Colgante Campana Cobre</h2>
+        <p>
+          Eleva el estilo de cualquier habitación con esta lámpara colgante de
+          diseño moderno. Su pantalla ancha de metal negro contrasta con un
+          interior de color cobre que difunde la luz de forma suave y cálida. Es
+          ideal para dar un punto focal en comedores, salas de estar o cualquier
+          espacio que busque un toque de elegancia con un guiño industrial.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="./images/lamparadoble.jpg" alt="lamparaPieNordica" />
+        <h2>Pack de Lámparas Colgantes Industriales</h2>
+        <p>
+          Este par de lámparas colgantes de estilo industrial es perfecto para
+          iluminar espacios como barras de cocina, islas o mesas de comedor. Con
+          un diseño de pantalla de metal en forma de cono y un acabado negro
+          mate, estas lámparas aportan un toque vintage y minimalista. La
+          bombilla expuesta de filamento completa el look, creando una
+          iluminación cálida y acogedora.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer" id="Contact">
+      <p>📧 lucesentuhogar@lighthing.com | 📞 +34 555 444 555</p>
+      <p>&copy; 2025 Room. Todos los derechos reservados.</p>
+    </footer>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="cerrar-modal" class="close">&times;</span>
+        <h2>Más información</h2>
+        <p>
+          Somos tu tienda online de lámparas para el hogar. Nos dedicamos a
+          ofrecerte una selección única de iluminación de diseño para que
+          encuentres la luz perfecta para cada rincón de tu casa.
+        </p>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navbar = document.getElementById("navbar");
+
+      hamburger.addEventListener("click", () => {
+        navbar.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
